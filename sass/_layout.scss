@@ -1,6 +1,6 @@
 .container {
   max-width: 120rem;
-  margin: 8rem auto;
+  margin: 8rem 2rem;
   background-color: var(--color-grey-light-2);
   box-shadow: var(--shadow-dark);
 
@@ -8,7 +8,7 @@
 }
 
 .header {
-  height: 7rem;
+  height: 5rem;
   background-color: #fff;
   border-bottom: var(--color-grey-light-2);
 
@@ -27,6 +27,6 @@
 }
 
 .cabin-view {
-  background-color: #fff;
+  background-color: orchid;
   flex: 1;
 }
