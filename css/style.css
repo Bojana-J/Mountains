@@ -200,7 +200,7 @@ body {
     display: flex;
     vertical-align: center; }
   .overview__icon-location {
-    margin-right: .5rem; }
+    margin-right: 0.5rem; }
   .overview__rating {
     background-color: var(--color-primary);
     color: #fff;
@@ -216,7 +216,7 @@ body {
       font-size: 2rem;
       font-weight: 300; }
     .overview__rating-count {
-      font-size: .8rem;
+      font-size: 0.8rem;
       text-transform: uppercase; }
 
 .btn-inline {
@@ -228,7 +228,7 @@ body {
   display: inline-block;
   background-color: transparent;
   cursor: pointer;
-  transition: all .2s; }
+  transition: all 0.2s; }
   .btn-inline:hover {
     color: var(--color-grey-dark-1);
     outline: none;
@@ -257,7 +257,33 @@ body {
   display: flex;
   flex-wrap: wrap; }
   .list__item {
-    flex: 0 0 50%; }
+    flex: 0 0 50%;
+    margin-bottom: 0.3rem; }
+  .list__item::before {
+    content: "";
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.5rem;
+    background-color: var(--color-primary);
+    -webkit-mask-image: url(../img/chevron-thin-right.svg);
+    -webkit-mask-size: cover; }
+
+.recommend {
+  font-size: 1rem;
+  color: var(--color-grey-dark-3);
+  display: flex;
+  align-items: center; }
+  .recommend__count {
+    margin-right: auto; }
+  .recommend__photo {
+    box-sizing: content-box;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border: 3px solid #fff; }
+    .recommend__photo:not(:last-child) {
+      margin-right: -1rem; }
 
 .container {
   max-width: 120rem;
@@ -289,16 +315,16 @@ body {
 
 .content {
   display: flex;
-  padding: 3rem;
+  padding: 2rem;
   background-color: #fff;
   border-bottom: var(--line); }
 
 .description {
   background-color: #fff;
   box-shadow: var(--shadow-light);
-  padding: 3rem;
+  padding: 2rem;
   flex: 0 0 60%;
-  margin-right: 3rem;
+  margin-right: 2rem;
   font-size: 1rem; }
 
 .user-reviews {
