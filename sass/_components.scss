@@ -194,7 +194,7 @@
 
   display:flex;
   align-items: center;
-  border-bottom: 1px solid var(--color-grey-light-3);
+  border-bottom: var(--line);
  
   &__heading {
     font-size: 1.5rem;
@@ -287,4 +287,46 @@
     transform: scale(1);
     box-shadow: none;
   }
+}
+
+//////////////////////////////////////
+///   PARAGRAPH
+.paragraph:not(:last-of-type) {
+  margin-bottom: 1rem;
+}
+
+.list {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 1rem 0;
+  border-top: var(--line);
+  border-bottom: var(--line);
+
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    flex: 0 0 50%;
+  }
+}
+
+//////////////////////////////////////
+///   RECOMMEND
+.recommend {
+
+  &__count {
+
+  }
+
+  &__friends {
+
+  }
+
+  &__photo {
+
+  }
+}
+
+.user-reviews {
+
 }

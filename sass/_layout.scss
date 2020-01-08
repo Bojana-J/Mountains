@@ -1,6 +1,6 @@
 .container {
   max-width: 120rem;
-  margin: 8rem 2rem;
+  margin: 4rem 2rem;
   background-color: var(--color-grey-light-2);
   box-shadow: var(--shadow-dark);
 
@@ -10,7 +10,7 @@
 .header {
   height: 5rem;
   background-color: #fff;
-  border-bottom: 1px solid var(--color-grey-light-3);
+  border-bottom: var(--line);
 
   display: flex;
   justify-content: space-between;
@@ -33,5 +33,26 @@
 .cabin-view {
   
   flex: 1;
-  height: 60rem;
+}
+
+.content {
+  display: flex;
+  padding: 3rem;
+
+  background-color: #fff;
+  border-bottom: var(--line);
+}
+
+.description {
+ background-color: #fff;
+ box-shadow: var(--shadow-light);
+ padding: 3rem;
+ flex: 0 0 60%;
+ margin-right: 3rem;
+ font-size: 1rem;
+}
+
+.user-reviews {
+  background-color: olivedrab;
+  flex: 1;
 }
