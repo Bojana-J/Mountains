@@ -41,6 +41,7 @@
 
   background-color: #fff;
   border-bottom: var(--line);
+  font-size: 1rem;
 }
 
 .description {
@@ -49,10 +50,9 @@
  padding: 2rem;
  flex: 0 0 60%;
  margin-right: 2rem;
- font-size: 1rem;
+ 
 }
 
 .user-reviews {
-  background-color: olivedrab;
   flex: 1;
 }
