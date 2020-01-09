@@ -233,6 +233,11 @@ body {
     color: var(--color-grey-dark-1);
     outline: none;
     animation: pulsate 1s infinite; }
+    .btn-inline:hover span {
+      margin-left: 8px;
+      transition: all .3s; }
+  .btn-inline span {
+    margin-left: 3px; }
 
 @keyframes pulsate {
   0% {
@@ -369,4 +374,7 @@ body {
   margin-right: 2rem; }
 
 .user-reviews {
-  flex: 1; }
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
