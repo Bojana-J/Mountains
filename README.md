@@ -2,6 +2,8 @@
 
 Mountains represent a project that should make researching and booking mountain cabins and tours a lot easier.
 
+<img src="img/PagePreview.png">
+
 SASS
 
 Project is based on SASS by using:
