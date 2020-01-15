@@ -4,8 +4,6 @@
   background-color: var(--color-grey-light-2);
   box-shadow: var(--shadow-dark);
 
-  min-height: 50rem;
-
   @media only screen and (max-width: $bp-largest) {
     margin: 2rem 1rem;
   }
@@ -33,6 +31,7 @@
   @media only screen and (max-width: $bp-medium) {
     flex-direction: column;
   }
+
 }
 
 .sidebar {
@@ -58,6 +57,9 @@
 
   @media only screen and (max-width: $bp-large) {
     padding: 1rem;
+  }  
+  @media only screen and (max-width: $bp-small) {
+    flex-direction: column;
   }
 }
 
@@ -71,6 +73,12 @@
   @media only screen and (max-width: $bp-large) {
     margin-right: 1rem;
   }
+
+  @media only screen and (max-width: $bp-small) {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+  
 }
 
 .user-reviews {
